@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+main {
+    position: relative;
+    font-family: 'Kufam', cursive, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    font-weight: 100;
+    font-size: 1rem;
+    /* color: greenyellow; */
+    color: #008F11;
+    margin: 1rem auto;
+}
+
+input {
+    display: block;
+    padding: 0.5rem;
+    width: 80%;
+    margin: 0 auto;
+    /* color: greenyellow; */
+    color: #00FF41;
+}
+
+#fall {
+    position: absolute;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Grandstander', cursive, sans-serif;
+    /* color: greenyellow; */
+    color: #00FF41;
+}
+
+@media screen and (min-width: 769px) {
+    h1 {
+        font-weight: 100;
+        font-size: 1.9rem;
+    }
+
+    #fall {
+        font-size: 1.2rem;
+    }
+
+    input {
+        display: none;
+    }
+}
